@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: "jdbc:mysql://localhost:3306/bookteria_identity"
-    driverClassName: "com.mysql.cj.jdbc.Driver"
-    username: root
+    url: "jdbc:postgresql://localhost:5432/bookservice_identity"
+    driver-class-name: "org.postgresql.Driver"
+    username: postgres
     password: root
   jpa:
     hibernate:
